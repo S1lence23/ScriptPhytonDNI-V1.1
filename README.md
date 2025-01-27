@@ -10,17 +10,32 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
 3. Luego, se calcula la **fecha aproximada de nacimiento** y la **edad actual** en función de la fecha de ejecución.
 4. Los resultados se muestran por pantalla y se guardan en un archivo de **logs.txt** para mantener un registro.
 
-## Instrucciones
+## Instrucciones 1
 
 1. **Requisitos previos**: Asegúrate de tener Python instalado en tu sistema.
 2. **Ejecuta el script**:
     - Para ejecutar el script, simplemente abre una terminal y corre el siguiente comando:
     ```bash
-    python calcular_edad.py
+    python ScriptPhytonDNI-V1.1.py
     ```
 3. **Interacción**:
     - Ingresa el número de DNI.
     - Para salir del programa, escribe `salir`.
+
+## Instrucciones 2 (Manera facil)
+
+1. **Requisitos previos**: Asegúrate de tener Python instalado en tu sistema.
+2. **Hacerlo desde un archivo (hacer doble clic)**:
+      - Si quieres ejecutar el script directamente con un doble clic, sigue estos pasos:
+        1. Asegúrate de tener **Python** instalado en tu sistema.
+        2. Haz clic derecho sobre el archivo `ScriptPhytonDNI-V1.1.py`.
+        3. Selecciona **Abrir con** y elige **Python** (puede aparecer como "Python Launcher" o "Python" dependiendo de tu sistema).
+        4. El script se ejecutará automáticamente y podrás interactuar con él desde la ventana de terminal que se abrirá.
+    - 
+3. **Interacción**:
+    - Ingresa el número de DNI.
+    - Para salir del programa, escribe `salir`.
+
 
 ## Créditos
 
