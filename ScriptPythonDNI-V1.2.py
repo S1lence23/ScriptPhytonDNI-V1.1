@@ -54,7 +54,7 @@ def main():
             # salir del programa
             if dni_input.lower() == 'salir':
                 print("\nGracias por usar este programa. Cerrando en 5 segundos...")
-                print("© S1lence Bots | Visítanos en: https://github.com/S1lence23")
+                print("© S1lence Bots | Visítanos en: https://github.com/s1lenceSK1")
                 time.sleep(5)
                 break
             # Validar que el DNI sea un número
