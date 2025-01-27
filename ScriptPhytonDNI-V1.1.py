@@ -50,7 +50,7 @@ def main():
     
     while True:
     
-            dni_input = input("Ingresa el DNI (o escribe 'salir' para terminar): ")
+            dni_input = input("Ingresa el DNI sin puntos (o escribe 'salir' para terminar): ")
             #salir del programa
             if dni_input.lower() == 'salir':
                 print("\nGracias por usar este programa. Cerrando en 5 segundos...")
