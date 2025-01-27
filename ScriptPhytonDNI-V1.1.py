@@ -74,8 +74,7 @@ def main():
             
             mostrar_resultados(dni, anio_nacimiento, fecha_nacimiento_aprox, edad)
             guardar_log(dni, anio_nacimiento, fecha_nacimiento_aprox, edad)
-        except valueError: 
-            print("⚠️ Por favor, ingresa un número de DNI válido.")    
+        
         except Exception as e:
             print(f"⚠️ Ha ocurrido un error: {e}")
             continue
