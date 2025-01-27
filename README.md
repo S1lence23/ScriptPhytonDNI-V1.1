@@ -53,10 +53,3 @@ Este proyecto fue creado por **S1lence**.
 
 Este script está diseñado para fines educativos y como herramienta para la estimación de la edad a partir del DNI. El uso de este script debe ser realizado de manera ética y responsable, respetando siempre la privacidad de las personas.
 """
-
-# Guardar el archivo README.md actualizado
-updated_readme_path = "/mnt/data/README.md"
-with open(updated_readme_path, "w") as f:
-    f.write(updated_readme_content)
-
-updated_readme_path
