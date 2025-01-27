@@ -27,6 +27,7 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
 Este proyecto fue creado por **S1lence**.  
 © 2025 **S1lence**. Todos los derechos reservados.  
 [GitHub - S1lence | Sk1](https://github.com/S1lence23)
+[Discord - S1lence | Sk1](https://discord.gg/Pdg5zcQ9Xv)
 
 ## Uso Ético
 
