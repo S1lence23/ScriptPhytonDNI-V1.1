@@ -49,7 +49,7 @@ def main():
     print("Escribe 'salir' para terminar el programa en cualquier momento.\n")
     
     while True:
-    
+        try:
             dni_input = input("Ingresa el DNI sin puntos (o escribe 'salir' para terminar): ")
             #salir del programa
             if dni_input.lower() == 'salir':
@@ -74,7 +74,11 @@ def main():
             
             mostrar_resultados(dni, anio_nacimiento, fecha_nacimiento_aprox, edad)
             guardar_log(dni, anio_nacimiento, fecha_nacimiento_aprox, edad)
-
+        except valueError: 
+            print("⚠️ Por favor, ingresa un número de DNI válido.")    
+        except Exception as e:
+            print(f"⚠️ Ha ocurrido un error: {e}")
+            continue
        
 if __name__ == "__main__":
     main()
