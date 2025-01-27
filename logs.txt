@@ -1,6 +1,2 @@
-Fecha: 2025-01-27 03:35:49
-Ingreso del DNI: 42321071
-Año aproximado de nacimiento: 1999.96
-Fecha aproximada de nacimiento: 19 de December de 1999
-Edad actual aproximada: 25 años
+
 ----------------------------------------
