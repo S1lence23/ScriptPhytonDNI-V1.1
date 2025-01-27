@@ -1,5 +1,3 @@
-# Actualización del README.md con los detalles de la ejecución desde la terminal usando "cd" y ejecución con doble clic.
-updated_readme_content = """
 # Script para Calcular Edad y Año de Nacimiento Aproximado
 
 Este script en Python calcula el año aproximado de nacimiento, la fecha y la edad a partir de un número de DNI en Argentina. Utiliza un algoritmo basado en un cálculo empírico que aproxima el año de nacimiento de acuerdo con el número de DNI.
