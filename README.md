@@ -19,7 +19,7 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
     ```
     - Luego, ejecuta el siguiente comando:
     ```bash
-    python ScriptPhytonDNI-V1.1.py
+    python ScriptPythonDNI-V1.2.py
     ```
 
 3. **Interacción**:
@@ -32,7 +32,7 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
 2. **Hacerlo desde el archivo (hacer doble clic)**:
     - Si quieres ejecutar el script directamente con un doble clic, sigue estos pasos:
         1. Asegúrate de tener **Python** instalado en tu sistema.
-        2. Haz clic derecho sobre el archivo `ScriptPhytonDNI-V1.1.py`.
+        2. Haz clic derecho sobre el archivo `ScriptPythonDNI-V1.2.py`.
         3. Selecciona **Abrir con** y elige **Python** (puede aparecer como "Python Launcher" o "Python" dependiendo de tu sistema).
         4. El script se ejecutará automáticamente y podrás interactuar con él desde la ventana de terminal que se abrirá.
 
@@ -44,7 +44,7 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
 
 Este proyecto fue creado por **S1lence**.  
 © 2025 **S1lence**. Todos los derechos reservados.  
-[GitHub - S1lence | Sk1](https://github.com/S1lence23)  
+[GitHub - S1lence | Sk1](https://github.com/s1lenceSK1)  
 [Discord - S1lence | Sk1](https://discord.gg/Pdg5zcQ9Xv)
 
 ## Uso Ético
