@@ -1,4 +1,5 @@
-
+# Actualización del README.md con los detalles de la ejecución desde la terminal usando "cd" y ejecución con doble clic.
+updated_readme_content = """
 # Script para Calcular Edad y Año de Nacimiento Aproximado
 
 Este script en Python calcula el año aproximado de nacimiento, la fecha y la edad a partir de un número de DNI en Argentina. Utiliza un algoritmo basado en un cálculo empírico que aproxima el año de nacimiento de acuerdo con el número de DNI.
@@ -14,37 +15,48 @@ Este script en Python calcula el año aproximado de nacimiento, la fecha y la ed
 
 1. **Requisitos previos**: Asegúrate de tener Python instalado en tu sistema.
 2. **Ejecuta el script**:
-    - Para ejecutar el script, simplemente abre una terminal y corre el siguiente comando:
+    - Para ejecutar el script, primero abre una terminal y navega hasta la carpeta donde guardaste el archivo. Usa el comando `cd` para cambiar de directorio. Ejemplo:
+    ```bash
+    cd ruta/del/archivo
+    ```
+    - Luego, ejecuta el siguiente comando:
     ```bash
     python ScriptPhytonDNI-V1.1.py
     ```
+
 3. **Interacción**:
     - Ingresa el número de DNI.
     - Para salir del programa, escribe `salir`.
 
-## Instrucciones 2 (Manera facil)
+## Instrucciones 2 (Manera fácil)
 
 1. **Requisitos previos**: Asegúrate de tener Python instalado en tu sistema.
-2. **Hacerlo desde un archivo (hacer doble clic)**:
-      - Si quieres ejecutar el script directamente con un doble clic, sigue estos pasos:
+2. **Hacerlo desde el archivo (hacer doble clic)**:
+    - Si quieres ejecutar el script directamente con un doble clic, sigue estos pasos:
         1. Asegúrate de tener **Python** instalado en tu sistema.
         2. Haz clic derecho sobre el archivo `ScriptPhytonDNI-V1.1.py`.
         3. Selecciona **Abrir con** y elige **Python** (puede aparecer como "Python Launcher" o "Python" dependiendo de tu sistema).
         4. El script se ejecutará automáticamente y podrás interactuar con él desde la ventana de terminal que se abrirá.
-    - 
+
 3. **Interacción**:
     - Ingresa el número de DNI.
     - Para salir del programa, escribe `salir`.
-
 
 ## Créditos
 
 Este proyecto fue creado por **S1lence**.  
 © 2025 **S1lence**. Todos los derechos reservados.  
-[GitHub - S1lence | Sk1](https://github.com/S1lence23)
+[GitHub - S1lence | Sk1](https://github.com/S1lence23)  
 [Discord - S1lence | Sk1](https://discord.gg/Pdg5zcQ9Xv)
 
 ## Uso Ético
 
 Este script está diseñado para fines educativos y como herramienta para la estimación de la edad a partir del DNI. El uso de este script debe ser realizado de manera ética y responsable, respetando siempre la privacidad de las personas.
+"""
 
+# Guardar el archivo README.md actualizado
+updated_readme_path = "/mnt/data/README.md"
+with open(updated_readme_path, "w") as f:
+    f.write(updated_readme_content)
+
+updated_readme_path
